@@ -42,7 +42,18 @@ Implementa reglas multimedia avanzadas a través de CSS3 (`@media print`). Al ac
 
 ---
 
+## 🚀 Instrucciones de Despliegue Rápido
 
-1. **Clonar el repositorio** o descargar el archivo ZIP en tu máquina local:
-   ```bash
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+Por motivos de optimización en la transferencia de archivos, los componentes estructurales y los binarios del sistema se encuentran empaquetados en la raíz del repositorio.
+
+1. **Descargar los componentes:**
+   * Descarga el código fuente de este repositorio haciendo clic en **Code** ➡️ **Download ZIP**.
+   * Descarga los binarios del entorno de PHP desde nuestro enlace centralizado: https://drive.google.com/drive/folders/1vq5kifTo8bqrAMdVNf3i2fZotctuXE2X?usp=drive_link.
+
+2. **Descompresión y Estructuración Obligatoria:**
+   * Extrae el contenido del proyecto en tu disco local o Pendrive USB.
+   * **Muy importante:** Localiza el archivo `css.zip` (o `styles.zip`) que viene en la raíz y **descomprímelo ahí mismo** para que se cree la carpeta `/css` con el archivo `style.css` adentro.
+   * Descomprime la carpeta `php/` descargada del Drive y colócala también en la raíz.
+
+3. **Ejecución:**
+   * Doble clic en **`EJECUTAR_SISTEMA.bat`** para inicializar el servidor local en `127.0.0.1:8080`.
