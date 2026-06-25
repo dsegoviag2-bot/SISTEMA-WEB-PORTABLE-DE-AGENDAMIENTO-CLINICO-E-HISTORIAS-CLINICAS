@@ -38,7 +38,7 @@ Implementa reglas multimedia avanzadas a través de CSS3 (`@media print`). Al ac
 * **Controlador Maestro:** `index.php` (Arquitectura monolítica modular, manejo seguro de sesiones y enrutamiento dinámico).
 * **Seguridad de Capa de Datos:** Consultas preparadas a través de **PDO** para anular cualquier vector de ataque por inyección SQL (*SQL Injection*).
 * **Motor de Persistencia:** SQLite (`citas_medicas.db`) con activación imperativa de integridad referencial mediante `PRAGMA foreign_keys = ON;`.
-* **Inicializador por Lotes:** `EJECUTAR_SISTEMA.bat` (Automatiza la lectura de rutas relativas, levanta el servidor web de PHP en `127.0.0.1:8080` y lanza el navegador predeterminado).
+* **Inicializador por Lotes:** `EJECUTAR_SISTEMA.bat` (Automatiza la lectura de rutas relativas, levanta el servidor web de PHP en `127.0.0.1:8080` y lanza el navegador predeterminado). 
 
 ---
 
